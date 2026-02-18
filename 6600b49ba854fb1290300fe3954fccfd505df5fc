@@ -1,0 +1,23 @@
+SKILL.md
+  a6c26c26eed1db78 1-68
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "6600b49ba854fb1290300fe3954fccfd505df5fc",
+  "prompts": {
+    "a6c26c26eed1db78": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019c7026-e800-7a40-a29a-b998999a1f56",
+        "model": "unknown"
+      },
+      "human_author": "matéo! <6matbub@gmail.com>",
+      "messages": [],
+      "total_additions": 68,
+      "total_deletions": 0,
+      "accepted_lines": 68,
+      "overriden_lines": 0
+    }
+  }
+}
