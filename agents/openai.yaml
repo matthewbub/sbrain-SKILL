@@ -1,0 +1,4 @@
+interface:
+  display_name: "Second Brain"
+  short_description: "Create timestamped Second Brain change summaries"
+  default_prompt: "Use $second-brain to write a git change summary into my Second Brain markdown folder."
