@@ -1,0 +1,23 @@
+SKILL.md
+  fb0c6463598a6940 34,40-41
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "ac10d142c738d3b83f51100613ae3c471c5077f1",
+  "prompts": {
+    "fb0c6463598a6940": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019c795c-6bd9-7a12-8e08-40a9f986ae43",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "matéo! <6matbub@gmail.com>",
+      "messages": [],
+      "total_additions": 3,
+      "total_deletions": 0,
+      "accepted_lines": 3,
+      "overriden_lines": 0
+    }
+  }
+}
