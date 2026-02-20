@@ -47,10 +47,12 @@ Voice:
 Bridge from Step 1 to script call:
 - Use the Step 1 summary as `context` exactly as written.
 - Preserve `context` text as-is, including punctuation and line breaks.
-- Collect required fields: `title`, `context`, and `project`.
-- If any required field is missing, ask only for the missing field(s).
+- Generate `title` from the Step 1 content itself. Keep it concise and specific.
+- Resolve `project` from the current working directory name (basename of `$PWD`) unless the user explicitly provides `project`.
+- Required field collection should only enforce `context` (from Step 1) and generated `title`.
 - Run the script with quoted arguments:
    - `<script-path> --title "<title>" --context "<context>" --project "<project>"`
+   - If project is not explicitly provided, omit `--project` and allow the script default from CWD.
 - Add optional fields only when provided by the user:
    - `--commits "<commits>"`
    - `--tags "<tags>"`

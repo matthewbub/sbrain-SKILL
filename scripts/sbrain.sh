@@ -11,12 +11,12 @@ TAGS=""
 usage() {
   cat <<'USAGE'
 Usage:
-  sbrain.sh --title "..." --context "..." --project "..." [options]
+  sbrain.sh --title "..." --context "..." [options]
 
 Required:
   --title        Brain entry title
   --context      Brain entry context/body
-  --project      Project name
+  --project      Project name (optional; defaults to current directory name)
 
 Options:
   --commits      Optional commits metadata
@@ -77,8 +77,13 @@ while [ "$#" -gt 0 ]; do
   esac
 done
 
-if [ -z "$TITLE" ] || [ -z "$CONTEXT" ] || [ -z "$PROJECT" ]; then
-  echo "Error: --title, --context, and --project are required." >&2
+# Default project to current working directory when not provided.
+if [ -z "$PROJECT" ]; then
+  PROJECT="$(basename "$PWD")"
+fi
+
+if [ -z "$TITLE" ] || [ -z "$CONTEXT" ]; then
+  echo "Error: --title and --context are required." >&2
   usage >&2
   exit 1
 fi
