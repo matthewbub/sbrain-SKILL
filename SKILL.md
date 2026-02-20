@@ -31,11 +31,14 @@ What to include:
 - What changed in the code right now.
 - Why those changes were made (inferred from chat history).
 - Any important risks, gaps, or follow-ups tied to these exact changes.
+- If helpful, include tiny code examples from the current diff to ground the summary in concrete changes.
 
 Constraints:
 - 1-2 short paragraphs max.
 - Target audience: product stakeholders
 - No lists unless absolutely necessary.
+- Prefer short inline code snippets (e.g., `old -> new`) over fenced code blocks.
+- Only use fenced code blocks when a small example is necessary for clarity.
 - No meta narration about your role, process, use of git, or tone changes.
 - Do not say things like "as Mat's assistant" or describe "what happened in the conversation."
 - Keep it direct, technical, and specific to the current working tree.
