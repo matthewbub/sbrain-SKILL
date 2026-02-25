@@ -1,0 +1,36 @@
+SKILL.md
+  74ed44ba6f7d7eae 51-57,60,75-76
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.5",
+  "base_commit_sha": "82281394cfde3ae0798b4dda3348a64d97bb166e",
+  "prompts": {
+    "72730f47facb4fb7": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019c79bc-9ffa-7981-b2ac-b168e6b5bbfc",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "matéo! <6matbub@gmail.com>",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 3,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    },
+    "74ed44ba6f7d7eae": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019c9401-a35f-7172-87f6-17573ebc8403",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "matéo! <6matbub@gmail.com>",
+      "messages": [],
+      "total_additions": 10,
+      "total_deletions": 5,
+      "accepted_lines": 10,
+      "overriden_lines": 0
+    }
+  }
+}
